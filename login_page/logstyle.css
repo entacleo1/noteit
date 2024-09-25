@@ -91,3 +91,17 @@
     background-color: #C5705D;
     color:white;
 }
+
+.sign{  
+
+    float: right;
+
+    .up {
+        color: #007bff;
+        text-decoration: none;
+    }
+    
+    .up:hover {
+        text-decoration: underline;
+    } 
+}
