@@ -172,4 +172,44 @@ body{
     }
 }
 
+@media(max-width:878px){
+  .note{
+    display: none;
+  }
+  .searc{
+    display: none;
+  }
+}
+
+@media (max-width:755px) {
+  .sidenav{
+    height: 100%;
+    width: 65px;
+    position: fixed;
+    z-index: 1;
+    background-color: #D0B8A8;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    z-index: 20;
+  }
+  .nt{
+    display: none;
+  }
+  .sidenav a:hover{
+    background-color: #C5705D;
+    color:white;
+  }
+  .logo{
+    display: none;
+  }
+
+  .wrapper{
+    width: 100%;
+    position: relative;
+    margin:  0 auto;
+    padding-left: 65px;
+  }
+}
 
